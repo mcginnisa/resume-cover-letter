@@ -1,0 +1,136 @@
+%based on resume tex file by Kamil Wojcicki
+% URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
+
+\documentclass[margin,line]{resume}
+
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{qrcode}
+
+
+% \setmainfont{IBM Plex Sans}
+
+
+\begin{document}
+% \marginpar{\qrcode[height=1.5cm]{mcginnisalexander@gmail.com}}
+\name{\huge \sc{Alexander McGinnis}\vspace{2mm}}
+{
+
+
+    \hfill mcginnisalexander@gmail.com       \vspace{0mm}\\\vspace{0mm}%
+    % \begin{center}
+    % \qrcode[height=1.5cm]{mcginnisalexander@gmail.com}
+    % \end{center}
+    \hfill (707) 583 9017           \vspace{0mm}\\\vspace{0mm}%
+   \hfill github.com/mcginnisa \vspace{0mm}\\\vspace{0mm}%
+   \hfill linkedin.com/in/mcginnisa \vspace{0mm}\\\vspace{-9mm}%
+}
+
+\begin{resume}
+
+    \vspace{-3mm}
+
+        %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle \textbf{\large{E}\small{DUCATION}}}
+
+    \textbf{\listing Sonoma State University} \vspace{1mm}\\
+    \textsl{B.S., Electrical Engineering, SSU GPA 3.828/4.00} \\  \textsl{Graduating May 2020} \hfill \textbf{}\vspace{-3mm}\\\vspace{-1mm}%
+
+    \vspace{-1mm}
+
+\sectionline
+
+
+
+    %__________________________________________________________________________________________________________________
+    % Skills / Keywords
+    \section{\mysidestyle \textbf{\large{S}\small{KILLS}}}
+    %\textbf{Electronics:} Oscilliscope
+    \textbf{Radio Frequency:} GNU Radio, Vector Network Analyzer, Spectrum Analyzer, FieldFox, EMPro, Advanced Design System, Ettus Research SDR\\
+    \textbf{Test Automation:} LabVIEW, Oscilloscope \\
+    \textbf{Linux:} Red Hat (CentOS), Debian family (Ubuntu, Kali), Bash scripting
+    \\
+    \textbf{Homogeneous Data:} MATLAB \\
+    \textbf{Python:} SciPy, NumPy, Matplotlib, Bottle, PyShark + more \\
+    \textbf{Embedded Programming:} C, ARM assembly
+    %\textbf{Embedded Programming:}
+
+
+\sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Summary
+    \section{\mysidestyle \textbf{\large{N}\small{OTABLE }} \textbf{\large{P}\small{ROJECTS}}}
+
+    \textbf{\textsl{Automated Antenna Pattern Measurement System
+}} - Led a team to develop a small-scale antenna pattern measurement and visualization robot, which could measure and plot the radiation pattern of microwave-wavelength antennas using a servo, microcontroller, and using LabVIEW to automate a spectrum analyzer and RF function generator
+
+%    \textbf{\textsl{H.264 Transmission}} - Contribution to a larger project. My contribution involved manipulating H.264 temporal and spatial bitstreams at a low level with MATLAB and LabVIEW.
+
+%\textbf{\textsl{Homogenous data analysis with python}} \\ - Developed a script to analyze analog circuits using a non-linear equation solver and symbolic (analytical) methods
+%\\ - Developed peak detection (digital signal processing) script in numpy for raw IQ data
+
+\textbf{\textsl{Antenna Pattern Report Generator
+}} - Developed efficient and highly automated MATLAB script to process large amounts of raw VNA data, and render calibrated polar plots of antenna patterns in a PDF report programmatically
+
+\textbf{\textsl{Microwave Matching Network
+}} - Designed and simulated a cellular antenna matching network in Advanced Design System
+
+\textbf{\textsl{IC-less FM Transmitter Circuit
+}} - Built an FM audio transmitter which only used individually packaged BJTs
+
+\textbf{\textsl{Slot Antenna
+}} - Led a team to design and FFF print a 3.4 GHz cavity-backed slot antenna in Fusion 360, and simulate it in EMPro
+
+
+
+
+    \vspace{-1mm}
+
+\sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle \textbf{\large{T}\small{ECHNICAL} \large{I}\small{NTERNSHIPS}}}
+
+    \textbf{\listing NIWC Applied Electromagnetics Branch} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Summer Intern} \hfill \textbf{2019}
+    \\ Worked on several projects in multiple areas related to radio frequency testing and research. \\ Notably developed digital signal processing scripts in NumPy for raw IQ data from a GNU Radio controlled receiver
+%         \textbf{\listing Innovations Academy Charter School } \vspace{2mm}\\\vspace{1mm}%
+%    \textsl{IT Technician} \hfill \textbf{2017}
+%    \\ Setup student iPad central control system, and maintained Windows installations
+
+     \textbf{\listing NIWC Applied Electromagnetics Branch} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Summer Intern} \hfill \textbf{2016}\\
+    	Contributed to a larger project wherein my part involved manipulating H.264 temporal and spatial bitstreams at a low level using MATLAB and transmitting them with an SDR using LabVIEW
+
+
+\sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Leadership
+    \section{\mysidestyle \textbf{\large{L}\small{EADERSHIP \&} \\ \large{I}\small{NVOLVEMENT}}}
+
+
+
+     \textbf{\listing Grossmont College Math \& Physics Tutoring Center} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{College Tutor} \hfill %\textbf{2015}
+
+
+    	    \textbf{\listing FIRST Robotics, Innovations Academy Charter School} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Youth Mentor, Coach} \hfill \textbf{}
+    \\ Mentored a FIRST Robotics team to inspire an interest in STEM and develop teamwork skills in junior high school students at Innovations Academy Charter School
+
+
+            \textbf{\listing FIRST Robotics, FTC} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Mechanical \& Electronics Team Member} \hfill %\textbf{2011-2015}
+    	\\ Contributed to the design team for the high school competitive robotics team (Fusion 135) which qualified for the world tournament twice and received the Inspire award
+
+    %        \textbf{\listing Sonoma State Electrical Engineering Club} \vspace{2mm}%\\\vspace{1mm}%
+    % \textsl{} \hfill %\textbf{2018-2019}
+    % 	\\ Founded and administered EE department primary slack, active contributor of SSU EE club
+
+
+\end{resume}
+\end{document}
